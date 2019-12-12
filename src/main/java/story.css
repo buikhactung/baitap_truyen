@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.254em;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul {
+    background: #2a23ff;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navbar li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #ff213e;
+    display: block;
+}
+
+#navbar a:hover{
+    background: #F1F1F1;
+    color: #333;
+}
+
+#logo {
+    position: relative;
+    background: #F1F1F1;
+}
+
+#btn {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 30px;
+    right: 40px;
+    background: #d5f5ff;
+    color: red;
+    font-size: 16px;
+    border-bottom: 3px solid red;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background: #CDE2CD;
+}
+
+
+img {
+    height: 150px;
+    width: 200px;
+}
+input {
+    position: relative;
+    float: right;
+    top: 30px;
+    right: 200px;
+}
+
+
+
+input[type="text"] {
+    width: 800px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline:none;
+    padding: 12px 14px;
+
+    transition:0.6s ease-in-out;
+}
+
+#container {
+    position: relative;
+    padding-left: 0px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+#menu ul {
+    background: #8AD385;
+    width: 20%;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    float: left;
+}
+
+#menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+#menu li:hover {
+    background: #CDE2CD;
+}
+
+p {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+    font-size: 30px;
+    font-family: "Adobe Hebrew";
+    color: red;
+
+}
+span {
+    position: absolute;
+    top: 80px;
+    right: 680px;
+    font-size: 22px;
+    color: #bacee8;
+}
+#image1 {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+#image {
+    float: left;
+    border: 1px;
+    width: 80%;
+
+}
+
+.img1 {
+    float: left;
+    width: 25%;
+    padding: 35px;
+}
